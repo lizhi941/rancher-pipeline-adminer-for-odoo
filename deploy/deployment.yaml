@@ -31,7 +31,7 @@ spec:
       - name: pipeline-docker-registry
       containers:
       - name: adminer
-        image: aminer:4.7
+        image: adminer:4.7
         env:
         - name: ADMINER_DEFAULT_SERVER
           value: odoodb-service       
